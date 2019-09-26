@@ -104,45 +104,54 @@
         <InArgument x:TypeArguments="x:Int32">3</InArgument>
       </Assign.Value>
     </Assign>
-    <Assign>
+    <Assign sap2010:WorkflowViewState.IdRef="Assign_3">
       <Assign.To>
         <OutArgument x:TypeArguments="ui:GenericValue">[testString3]</OutArgument>
       </Assign.To>
       <Assign.Value>
         <InArgument x:TypeArguments="ui:GenericValue">["Bla bla"]</InArgument>
       </Assign.Value>
-      <sap2010:WorkflowViewState.IdRef>Assign_3</sap2010:WorkflowViewState.IdRef>
     </Assign>
-    <Assign>
-      <Assign.To>
-        <OutArgument x:TypeArguments="ui:GenericValue">[testString4]</OutArgument>
-      </Assign.To>
-      <Assign.Value>
-        <InArgument x:TypeArguments="ui:GenericValue">["4"]</InArgument>
-      </Assign.Value>
-      <sap2010:WorkflowViewState.IdRef>Assign_4</sap2010:WorkflowViewState.IdRef>
-    </Assign>
-    <sads:DebugSymbol.Symbol>dy5DOlxVc2Vyc1xES01MVFxEb3dubG9hZHNcWUFUUi1tYXN0ZXJcTWFpbi54YW1sGQFIAVYBAkQDfg4CAQFLBU8dAgEbUAVQbQIBGVEFWA4CARVZBWEKAgEQYgViTAIBDmMFag4CAQprBXMOAgEGdAV8DgIBAk08TUECAR1LuQFLzAECARxQXFBqAgEaVjBWOwIBGFMxUzwCARZZE1kuAgERWwlfGQIBE2IVYh8CAQ9oL2gwAgENZTBlOQIBC3A3cEICAQltOG1FAgEHeTd5PAIBBXY4dkUCAQNb6AFb7QECARQ=</sads:DebugSymbol.Symbol>
+    <Sequence sap2010:WorkflowViewState.IdRef="Sequence_20">
+      <If Condition="[testString3 &lt;&gt; &quot;&quot;]" sap2010:WorkflowViewState.IdRef="If_2" />
+      <Assign sap2010:WorkflowViewState.IdRef="Assign_4">
+        <Assign.To>
+          <OutArgument x:TypeArguments="ui:GenericValue">[testString4]</OutArgument>
+        </Assign.To>
+        <Assign.Value>
+          <InArgument x:TypeArguments="ui:GenericValue">["6"]</InArgument>
+        </Assign.Value>
+      </Assign>
+    </Sequence>
+    <sads:DebugSymbol.Symbol>dy5DOlxVc2Vyc1xES01MVFxEb3dubG9hZHNcWUFUUi1tYXN0ZXJcTWFpbi54YW1sHAFIAVYBAkQDfw4CAQFLBU8dAgEeUAVQbQIBHFEFWA4CARhZBWEKAgETYgViTAIBEWMFag4CAQ1rBXIOAgEJcwV9EAIBAk08TUECASBLuQFLzAECAR9QXFBqAgEdVjBWOwIBG1MxUzwCARlZE1kuAgEUWwlfGQIBFmIVYh8CARJoL2gwAgEQZTBlOQIBDnA3cEICAQxtOG1FAgEKdAd0ZAIBB3UHfBACAQNb6AFb7QECARd0FXQ6AgEIejl6PgIBBnc6d0cCAQQ=</sads:DebugSymbol.Symbol>
   </Sequence>
   <sap2010:WorkflowViewState.ViewStateManager>
     <sap2010:ViewStateManager>
-      <sap2010:ViewStateData Id="InvokeWorkflowFile_1" sap:VirtualizedContainerService.HintSize="464,87" />
-      <sap2010:ViewStateData Id="WriteLine_1" sap:VirtualizedContainerService.HintSize="464,61" />
-      <sap2010:ViewStateData Id="Assign_1" sap:VirtualizedContainerService.HintSize="464,60" />
+      <sap2010:ViewStateData Id="InvokeWorkflowFile_1" sap:VirtualizedContainerService.HintSize="486,87" />
+      <sap2010:ViewStateData Id="WriteLine_1" sap:VirtualizedContainerService.HintSize="486,61" />
+      <sap2010:ViewStateData Id="Assign_1" sap:VirtualizedContainerService.HintSize="486,60" />
       <sap2010:ViewStateData Id="SendHotkey_1" sap:VirtualizedContainerService.HintSize="314,116" />
-      <sap2010:ViewStateData Id="If_1" sap:VirtualizedContainerService.HintSize="464,264" />
-      <sap2010:ViewStateData Id="Delay_1" sap:VirtualizedContainerService.HintSize="464,22" />
-      <sap2010:ViewStateData Id="Assign_2" sap:VirtualizedContainerService.HintSize="464,60" />
-      <sap2010:ViewStateData Id="Assign_3" sap:VirtualizedContainerService.HintSize="464,60" />
+      <sap2010:ViewStateData Id="If_1" sap:VirtualizedContainerService.HintSize="486,264" />
+      <sap2010:ViewStateData Id="Delay_1" sap:VirtualizedContainerService.HintSize="486,22" />
+      <sap2010:ViewStateData Id="Assign_2" sap:VirtualizedContainerService.HintSize="486,60" />
+      <sap2010:ViewStateData Id="Assign_3" sap:VirtualizedContainerService.HintSize="486,60" />
+      <sap2010:ViewStateData Id="If_2" sap:VirtualizedContainerService.HintSize="464,208" />
       <sap2010:ViewStateData Id="Assign_4" sap:VirtualizedContainerService.HintSize="464,60" />
-      <sap2010:ViewStateData Id="Sequence_19" sap:VirtualizedContainerService.HintSize="486,1078">
+      <sap2010:ViewStateData Id="Sequence_20" sap:VirtualizedContainerService.HintSize="486,432">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="Main_1" sap:VirtualizedContainerService.HintSize="526,998" />
+      <sap2010:ViewStateData Id="Sequence_19" sap:VirtualizedContainerService.HintSize="508,1450">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Main_1" sap:VirtualizedContainerService.HintSize="548,1570" />
     </sap2010:ViewStateManager>
   </sap2010:WorkflowViewState.ViewStateManager>
 </Activity>
